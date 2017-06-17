@@ -17,6 +17,8 @@ Nimrod is compiled with -d:release, and --threads:on if using the llvm one (the 
 
 Scala is run with ```target/start seed``` after running ```sbt add-start-script-tasks start-script``` in the scala folder.
 
-C# can be compiled with .NET core using the standard build process (remember to run `dotnet restore` first)
+C# can be compiled with .NET core using `dotnet run 1234` (remember to run `dotnet restore` first). Use more aggressive compilation options for better performance.
+
+Node can be run with `npm start 1234` (remember to run `npm install` first)
 
 They must be run with the seed as a command line parameter, like ./PC 123.

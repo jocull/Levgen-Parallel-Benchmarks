@@ -1,0 +1,16 @@
+{
+  "name": "levgen-parallel-benchmarks",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "James O'Cull",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "present": "^1.0.0"
+  }
+}
